@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.converter {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+select, input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+h2 {
+  margin-bottom: 20px;
+}
